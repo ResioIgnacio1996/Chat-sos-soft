@@ -7,7 +7,7 @@ const io = require('socket.io')(http,{
         origin:true,
         credentials:true,
         methods:['GET','POST']
-    }
+    }  
 });
 io.on('connection',(socket)=>{
     console.log("anda chat")
